@@ -17,7 +17,7 @@ spring:
       path: /h2-console
 
 app:
-  name: RetailService-DEV
+  name: RetailService-QA
   timeout: 5000
   enabled: true
   countries:
@@ -35,6 +35,6 @@ app:
     - name: WesternUnion
       country: INDIA
       active: true
-    - name: MoneyGram UPDATED
+    - name: MoneyGram
       country: USA
       active: false
