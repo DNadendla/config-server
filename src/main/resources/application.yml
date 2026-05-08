@@ -13,11 +13,16 @@ spring:
 #          search-locations: "classpath:/config"
         git:
 #          uri: "https://github.com/eazybytes/eazybytes-config.git"
-          uri: "https://github.com/DNadendla/config-server.git"
+          uri: "https://github.com/DNadendla/ms-config-files.git"
           default-label: main
           timeout: 5
           clone-on-start: true
           force-pull: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 management:
   endpoints:

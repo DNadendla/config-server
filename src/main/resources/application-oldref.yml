@@ -12,7 +12,7 @@ spring:
         # search-locations: "file:///Users//eazybytes//Documents//config"
         git:
 #          uri: "https://github.com/eazybytes/eazybytes-config.git"
-          uri: "https://github.com/DNadendla/config-server.git"
+          uri: "https://github.com/DNadendla/ms-config-files.git"
           default-label: main
           timeout: 5
           clone-on-start: true
